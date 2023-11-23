@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58bc5650acc34bca9dadea5016237e4d, type: 3}
   m_Name: CursorAsset
   m_EditorClassIdentifier: 
-  originCursor: {fileID: 0}
-  aimCursor: {fileID: 0}
+  normalCursor: {fileID: 2800000, guid: 7889bdfd2413f694fb37a5ddc910ee7a, type: 3}
+  aimCursor: {fileID: 2800000, guid: 850b26d501c98dd45a05fbb9f17109c3, type: 3}

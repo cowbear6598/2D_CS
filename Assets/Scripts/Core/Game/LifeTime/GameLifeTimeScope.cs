@@ -19,7 +19,9 @@ namespace Core.Game.LifeTime
 
         private void RegisterCursor(IContainerBuilder builder)
         {
-            builder.Register<CursorHandler>(Lifetime.Singleton);
+            builder.Register<CursorHandler>(Lifetime.Singleton)
+                   .AsImplementedInterfaces()
+                   .AsSelf();
             builder.Register<CursorService>(Lifetime.Singleton)
                    .AsImplementedInterfaces()
                    .AsSelf();
